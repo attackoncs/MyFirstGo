@@ -1,2 +1,7 @@
-1新增Model，将写数据库的代码迁移到model中的user.go
-2将http handler迁移到control中
+v2
+1新增common目录，将数据库连接初始化封装成InitDB，通过GetDB获取数据库实体
+2将http handler迁移到controller的UserController中的isTelephoneExist和Register函数
+3新增Model目录，将用户结构体迁移到model中的user.go
+4将RandomString函数迁移到util目录
+5将API的route迁移到routes.go中
+
