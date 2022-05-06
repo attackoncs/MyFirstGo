@@ -4,4 +4,11 @@ v2
 3新增Model目录，将用户结构体迁移到model中的user.go
 4将RandomString函数迁移到util目录
 5将API的route迁移到routes.go中
-
+v3
+1新增jwt.go实现用户认证
+2新增config中的application.yml配置
+3新增middleware中间件，保护中间件和用户认证
+4新增两个路由：登录和查询用户信息
+V4
+1解决浏览器跨域问题
+2修改注登录方法
