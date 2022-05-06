@@ -1,0 +1,2 @@
+1新增Model，将写数据库的代码迁移到model中的user.go
+2将http handler迁移到control中
